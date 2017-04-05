@@ -12,17 +12,110 @@
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="zenburn.css">
+		
+		<style>
+		
+			img{
+				width:1000px;
+				height:600px;
+			
+			}
+			
+			.myVideo{
+			
+				width : 1000px;
+				height : 700px;
+			
+			}
+			
+		</style>
 
 
 	</head>
 	<body>
 		<div class="reveal">
+		
 			<div class="slides">
+				
+				
 				<section>
-				
-					<h1> BootStrap </h1>
-				
+					<img data-src="img/home.jpg" alt="image">
 				</section>
+				
+				<section>
+					<img data-src="img/slideIntroduction.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slideOnea.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slideTwo.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide3.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide4.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/gettingStarted.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide5.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide7a.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide9b.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide13a.jpg" alt="image">
+				</section>
+				
+				<section >
+					<video id="myVideo" controls>
+						  <source src="img/bootStrap.mp4" type="video/mp4">
+						 
+					  Your browser does not support HTML5 video.
+					</video>
+				</section>
+				
+				<section>
+					<img data-src="img/slide12a.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide8.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/bsics.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide10.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide11.jpg" alt="image">
+				</section>
+				
+				<section>
+					<img data-src="img/slide12.jpg" alt="image">
+				</section>
+				
+			
+	
 				
 <!-- 				<section>Slide 2</section>
 				
@@ -34,6 +127,10 @@
 
 		<script src="head.min.js"></script>
 		<script src="reveal.js"></script>
+		
+		<script>
+
+</script> 
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
@@ -48,6 +145,12 @@
 					{ src: 'highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
+			
+			var vid = document.getElementById("myVideo");
+				vid.onpause = function() {
+				//alert("The video has been paused");
+			};
 		</script>
 	</body>
 </html>
+
